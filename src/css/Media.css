@@ -1,0 +1,740 @@
+@media (max-width: 767px) {
+    /* .centerBtn {
+        display: block;
+    } */
+
+    .loginSignupBtn {
+        margin-right: 19px;
+    }
+
+    .landingSection {
+        height: auto;
+        padding: 55px 0;
+    }
+
+    .heading {
+        font-size: 34px;
+    }
+
+    .headingPara {
+        font-size: 18px;
+    }
+
+    .landingRight {
+        margin-left: 0;
+        margin-top: 61px;
+        width: 297px;
+    }
+
+    .whySection {
+        flex-direction: column;
+        height: auto;
+        padding: 35px 0;
+    }
+
+    .box {
+        flex-direction: column;
+    }
+
+    .box1,
+    .box2,
+    .box3,
+    .box4 {
+        padding: 35px 0;
+    }
+
+    h4 {
+        font-size: 43px;
+    }
+
+    .counterParentPara {
+        font-size: 25px;
+    }
+
+    .cardContent {
+        flex-direction: column;
+    }
+
+    .cardBox {
+        margin: 10px 0;
+    }
+
+    .whyShouldJoin {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .whyParentHead {
+        width: auto;
+    }
+
+    .joinGrid {
+        flex-direction: column;
+        grid-template-rows: auto;
+        grid-template-columns: auto;
+        row-gap: 37px;
+        padding: 30px 0;
+    }
+
+    .ourMissionParent,
+    .ourVisionParent {
+        flex-direction: column;
+        height: auto;
+        padding: 30px 0;
+    }
+
+    .ourMissionTarget {
+        width: 290px;
+        margin-left: 0;
+    }
+
+    .ourMissionHead,
+    .ourVisionHead {
+        width: auto;
+    }
+
+    .ourAchieve {
+        justify-content: center;
+        height: auto;
+        padding: 30px 0;
+    }
+
+    .achieveImg {
+        width: 260px;
+    }
+
+    .ourAchieveChildHead {
+        font-size: 33px;
+        line-height: 47px;
+        text-align: center;
+        padding-top: 25px;
+    }
+
+    .achieveBtn,
+    .courseBtn {
+        margin-top: 29px;
+    }
+
+    .learnerAcrossHead {
+        font-size: 34px;
+
+    }
+
+    .courses {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .card {
+        margin: 15px 0;
+    }
+
+    .referEarn {
+        height: auto;
+        flex-direction: column;
+        padding: 100px 0;
+    }
+
+    .joinCourse {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sponsors {
+        height: auto;
+        flex-direction: column;
+
+    }
+
+    .sponsorsImg {
+        flex-direction: column;
+    }
+
+    .sponsorsImage {
+        width: 124px;
+        margin: 26px 0;
+    }
+
+    .footer {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .childDiv {
+        flex-direction: column;
+        justify-content: center;
+        padding: 53px 0;
+    }
+
+    .aboutSection {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .aboutVision,
+    .aboutchildMission {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .aboutSectionHead {
+        font-size: 30px;
+    }
+
+    .aboutWhy {
+        flex-direction: column;
+    }
+
+    .aboutWhyImg {
+        width: 300px;
+    }
+
+    .aboutText {
+
+        padding-top: 30px;
+    }
+
+    .aboutWhyHead {
+        font-size: 42px;
+        padding-bottom: 32px;
+    }
+
+    .childGraduate {
+        flex-direction: column;
+    }
+
+    .serviceBox,
+    .service2Box {
+        flex-direction: column;
+    }
+
+    .aboutServiceImg {
+        margin-bottom: 20px;
+    }
+
+    .graduateHead {
+        font-size: 30px !important;
+    }
+
+    .programHead {
+        font-size: 32px !important;
+        width: auto !important;
+    }
+
+    .programSubHead {
+        font-size: 33px !important;
+
+    }
+
+    .programPara {
+        font-size: 17px !important;
+        width: auto !important;
+    }
+
+    .parentCheck {
+        height: auto !important;
+        flex-direction: column !important;
+    }
+
+    .graduateHead2 {
+        font-size: 33px !important;
+        padding: 46px 0 !important;
+        width: auto !important;
+
+    }
+
+    .layerBox1,
+    .layerBox2,
+    .layerBox3 {
+        flex-direction: column !important;
+    }
+
+    .layerImages {
+        width: 333px !important;
+        margin-bottom: 46px !important;
+    }
+
+    .childGraduateHead {
+        font-size: 28px !important;
+    }
+
+    .signupForm {
+        height: 550px !important;
+    }
+
+    .formLayout {
+        width: 100% !important;
+    }
+
+    .subjectContent,
+    .descriptionText {
+        width: 100% !important;
+    }
+
+    .subjectHead {
+        font-size: 25px !important;
+        line-height: normal !important;
+    }
+
+    .syllabus,
+    .syllabusContent {
+        flex-direction: column !important;
+        justify-content: center !important;
+    }
+
+    .accordion {
+        width: auto !important;
+        margin-bottom: 23px !important;
+    }
+
+    .descriptionImage {
+        width: 100% !important;
+    }
+
+    .getImage {
+        width: 100% !important;
+    }
+
+    .getHead,
+    .vitHead,
+    .faqHead {
+        font-size: 33px !important;
+    }
+
+    .get,
+    .vit,
+    .faq {
+        height: auto !important;
+    }
+
+    .vitCard {
+        margin-bottom: 40px !important;
+    }
+
+    .cardsRow {
+        flex-direction: column !important;
+        justify-content: center !important;
+    }
+
+
+    .loginSignupBtn {
+        display: none;
+    }
+
+    .perkImage {
+        width: 100% !important;
+    }
+
+    .referCardHead {
+        font-size: 35px !important;
+        padding: 20px 0 !important;
+    }
+
+    .referEarnCards {
+        flex-direction: column !important;
+        justify-content: center !important;
+    }
+
+    .referPng {
+        margin-bottom: 32px;
+    }
+
+    .benBox,
+    .benBox2 {
+        flex-direction: column !important;
+        height: 255px !important;
+        text-align: center !important;
+
+    }
+
+    .getCampusPara {
+        padding: 0 6px !important;
+    }
+
+    .faqLand {
+        height: 25vh !important;
+    }
+
+    .allCheckLanding {
+        height: auto !important;
+        padding: 30px 0;
+    }
+
+    .allCheckHead {
+        font-size: 29px !important;
+        line-height: normal !important;
+    }
+
+    .allCheckPara {
+        width: 100% !important;
+    }
+
+    .allCheck {
+        display: flex !important;
+        align-items: flex-start !important;
+        height: auto !important;
+        gap: 0rem !important;
+        flex-direction: column !important;
+    }
+
+    .csr {
+        height: auto !important;
+    }
+
+    .card1 {
+        align-items: center !important;
+        flex-direction: column !important;
+        margin-bottom: 40px !important;
+    }
+
+    .courseCost {
+        margin-bottom: 0 !important;
+    }
+
+    .middCard {
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center !important;
+        padding: 23px 28px !important;
+
+    }
+
+    .courseCardTitle {
+        font-size: 16px !important;
+        line-height: normal !important;
+        width: 100% !important;
+    }
+
+    .last {
+        display: flex !important;
+        justify-content: space-between !important;
+        width: 284px !important;
+        margin-top: 20px !important;
+    }
+
+    .teacherName {
+        margin: 11px 0 !important;
+    }
+
+    input[type="search"] {
+        width: auto;
+        height: 34px;
+    }
+
+    .innerMissionChild {
+        flex-direction: column;
+    }
+
+    .ourMissionText {
+        width: 100%;
+    }
+
+    .ourMissionTarget {
+        width: 100%;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .navbarBtns {
+        display: none;
+    }
+
+    .loginSignupBtn {
+        display: block;
+        margin-right: 61px;
+    }
+
+    .navbar-brand {
+        margin-left: 39px;
+    }
+
+    .whySection {
+        height: auto;
+    }
+
+    .box {
+        flex-direction: column;
+    }
+
+    .box1,
+    .box2,
+    .box3,
+    .box4 {
+        padding: 35px 0;
+    }
+
+    .childGraduate {
+        flex-direction: column;
+    }
+
+    .graduateHead2 {
+        width: 100% !important;
+    }
+
+    .layerBox1,
+    .layerBox2,
+    .layerBox3 {
+        flex-direction: column;
+    }
+
+    .layerImages {
+        width: 650px;
+    }
+
+    .ourMissionText {
+        margin-top: 70px;
+    }
+
+    .childDiv {
+        flex-direction: column;
+        align-items: inherit;
+    }
+
+    .footer {
+        height: auto;
+        justify-content: space-between;
+    }
+
+    .left,
+    .middle,
+    .right {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 260px;
+    }
+
+    .footerAdress {
+        width: 40%;
+    }
+
+    .aboutMission {
+        padding: 0 0;
+    }
+
+    .aboutVision,
+    .aboutchildMission {
+        height: auto;
+        flex-direction: column;
+    }
+
+    .aboutServiceImg {
+        width: 272px;
+        margin: 0 22px;
+    }
+
+    .formLayout {
+        width: 50% !important;
+    }
+
+    .subjectPara {
+        font-size: 20px !important;
+        line-height: normal !important;
+
+    }
+
+    .subjectHead {
+        font-size: 28px !important;
+        line-height: normal !important;
+    }
+
+    .descriptionImage {
+        width: 100%;
+    }
+
+    .description {
+        padding-top: 50px;
+    }
+
+    .syllHead {
+        margin-top: 55px;
+    }
+
+    .getImage {
+        width: 100%;
+    }
+
+    .getHead {
+        font-size: 33px;
+    }
+
+    .vitCard {
+        width: 70%;
+        margin: 0 10px;
+    }
+
+    .get,
+    .vit,
+    .faq {
+        height: auto !important;
+        padding: 20px 0;
+    }
+
+    .campusLanding {
+        height: 90vh !important;
+    }
+
+    .perkPara {
+        padding-bottom: 0 !important;
+    }
+
+    .referPng {
+        margin: 0 10px;
+    }
+
+    .faqLand {
+        height: 39vh !important;
+    }
+
+    .landingRight {
+        margin-top: 121px;
+        margin-left: 0px;
+    }
+
+    .allCheck {
+        gap: 0rem !important;
+    }
+
+    .middCard {
+        padding: 0 21px !important;
+    }
+
+    .courseCardTitle {
+        font-size: 16px !important;
+        color: #090909 !important;
+        width: 100% !important;
+    }
+
+    .subjectContent,
+    .descriptionText {
+        width: 100% !important;
+    }
+
+
+}
+
+@media (min-width: 1024px) and (max-width: 1100px) {
+    .childGraduateHead {
+        font-size: 33px !important;
+    }
+
+    .layerImages {
+        width: 406px;
+    }
+
+    .graduateHead2 {
+        width: 70% !important;
+    }
+
+    .left,
+    .middle,
+    .right {
+        grid-template-rows: 110px;
+        grid-template-columns: 307px;
+    }
+
+    .aboutSection {
+        height: 45vh;
+
+    }
+
+    .aboutSectionHead {
+        font-size: 34px;
+    }
+
+    .aboutVision,
+    .aboutchildMission {
+        height: 35vh;
+    }
+
+    .aboutServiceImg {
+        width: 280px;
+        margin: 0 22px;
+    }
+
+    .formLayout {
+        width: 37% !important;
+    }
+
+    .descriptionImage {
+        width: 100%;
+    }
+
+    .subjectPara {
+        font-size: 23px !important;
+        line-height: normal !important;
+
+    }
+
+    .subjectHead {
+        font-size: 39px !important;
+        line-height: normal !important;
+    }
+
+    .description {
+        padding-top: 50px;
+    }
+
+    .syllHead {
+        margin-top: 55px;
+    }
+
+    .getImage {
+        width: 100%;
+    }
+
+    .getHead {
+        font-size: 33px;
+    }
+
+    .get,
+    .vit {
+        height: auto !important;
+        padding: 20px 0;
+    }
+
+    .faq {
+        height: 52vh !important;
+    }
+
+    .campusLanding {
+        height: 41vh !important;
+    }
+
+    .perk {
+        height: 48vh !important;
+    }
+
+    .vitCard {
+        width: 70%;
+        margin: 0 10px;
+    }
+
+    .faqLand {
+        height: 39vh !important;
+    }
+
+    .referPng {
+        margin: 0 10px;
+    }
+
+    .referCardHead {
+        margin-bottom: 35px;
+    }
+
+    .benefitHead {
+        margin-bottom: 35px;
+
+    }
+
+    .courseCardTitle {
+        width: 100% !important;
+    }
+
+    .subjectContent,
+    .descriptionText {
+        width: 100% !important;
+    }
+
+}

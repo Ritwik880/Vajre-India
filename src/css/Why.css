@@ -1,0 +1,34 @@
+.graduateWhy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    background: #6078FE;
+}
+
+.graduateHead2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 80px 0;
+    width: 50%;
+    margin: auto;
+}
+
+.childGraduateHead {
+    font-weight: 700;
+    font-size: 48px;
+    color: #FFFFFF;
+
+}
+
+.layerBox1,
+.layerBox2,
+.layerBox3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 119px;
+}

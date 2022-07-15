@@ -1,0 +1,125 @@
+.aboutSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #F4FCFF;
+}
+
+.aboutText {
+    margin: auto;
+}
+
+.aboutSectionHead {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 51px;
+    background: linear-gradient(89.6deg, #5077FF 0.31%, #9981FB 42.01%, #F797FF 99.64%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.aboutPara {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    color: #000000;
+    padding: 39px 0;
+}
+
+.aboutImg {
+    width: 320px;
+}
+
+.aboutWhyImg {
+    width: 500px;
+}
+
+.aboutMission {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../../public/aboutMission.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    padding: 66px 0;
+}
+
+.aboutVision,
+.aboutchildMission {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+.aboutWhy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../../public/aboutWhy.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    padding: 66px 0;
+
+}
+
+.aboutWhyHead {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    color: #FFFFFF;
+}
+
+.aboutService {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+.aboutServiceHead {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    background: linear-gradient(89.6deg, #5077FF 0.31%, #9981FB 42.01%, #F797FF 99.64%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.serviceBox,
+.service2Box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.ourTestimonials {
+    background: linear-gradient(89.6deg, #2CBDFB 0.31%, #9175FF 47.7%, #4764FF 99.64%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+
+}
+
+.aboutTestHead {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 40px 0;
+
+}

@@ -1,0 +1,72 @@
+.signupForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 588px;
+    background-image: url('../../public/signupBanner.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.formLayout {
+    background: #FFFFFF;
+    box-shadow: 1px 2px 5px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    width: 31%;
+    margin: auto;
+    height: 450px;
+    margin-bottom: 10px;
+}
+
+.signupHeader {
+    font-weight: 600;
+    font-size: 20px;
+    color: #090909;
+    padding-top: 10px;
+    padding-left: 5px;
+}
+
+.signupIcon {
+    color: #090909;
+    margin-right: 10px;
+}
+
+.signupBtn {
+    background: linear-gradient(89.6deg, #2CBDFB 0.31%, #9175FF 47.7%, #4764FF 99.64%);
+    border-radius: 6px;
+    border: none;
+    width: 100%;
+    height: 50px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.formLabel {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #090909;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.progressHead {
+    font-weight: 500;
+    font-size: 14px;
+    color: #818181;
+    margin-bottom: 0 !important;
+}
+
+.progressLayout {
+    display: flex;
+
+}
+
+progress {
+    height: 10px;
+    width: 91px;
+    /* color: #000 !important; */
+}

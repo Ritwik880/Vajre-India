@@ -1,0 +1,415 @@
+.landingSection {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../../public/landingBanner.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.heading {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    color: #FFFFFF;
+}
+
+.headingPara {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    padding: 37px 0;
+}
+
+.landingBtn {
+    width: 233px;
+    height: 50px;
+    background: #FFFFFF;
+    border-radius: 6px;
+    border: none;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 29px;
+    color: #4042E2;
+}
+
+.landingBtn::after {
+    content: "\2192";
+    margin-left: 0.5rem;
+    font-size: 1.2rem;
+}
+
+.landingRight {
+    margin-left: 64px;
+    width: 380px;
+}
+
+.whySection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    background: #F4FCFF;
+    padding: 58px 0;
+}
+
+h4 {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 67px;
+    text-align: center;
+    background: linear-gradient(89.6deg, #5077FF 0.31%, #9981FB 42.01%, #F797FF 99.64%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.counterParentPara {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    color: #000000;
+}
+
+.box,
+.box1,
+.box2,
+.box3,
+.box4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box1,
+.box2,
+.box3,
+.box4 {
+    flex-direction: column;
+    padding: 60px 0;
+    width: 280px;
+}
+
+h6 {
+    font-weight: 600;
+    font-size: 48.7805px;
+    line-height: 57px;
+    text-align: center;
+    color: #4042E2;
+
+}
+
+.counterBoxPara {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 29px;
+    text-align: center;
+    color: #000000;
+
+}
+
+.cardContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardBox {
+    margin: 0 30px;
+    height: 336px;
+    width: 250px;
+    background: linear-gradient(89.6deg, #5077FF 0.31%, #9981FB 42.01%, #999DFB 99.64%);
+    border-radius: 13.5135px;
+    color: #FFFFFF;
+}
+
+.cardBody {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.cardTitle {
+    width: 70%;
+    margin-top: 117px;
+}
+
+.cardText {
+    margin-top: 77px;
+
+}
+
+.whySectionBtnBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.whySectionBtn {
+    background: #4042E2;
+    border-radius: 6px;
+    border: none;
+    width: 233px;
+    height: 50px;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 29px;
+    color: #FFFFFF;
+
+}
+
+.whySectionBtn::after {
+    content: "\2192";
+    margin-left: 0.5rem;
+    font-size: 1.2rem;
+
+}
+
+.innerMissionChild {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ourMissionText {
+    width: 60%;
+}
+
+.ourMissionTarget {
+    width: 30%;
+}
+
+.whyShouldJoin,
+.ourMissionParent,
+.ourVisionParent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    background-image: url('../../public/whyShouldJoin.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.whyParentHead {
+    font-style: normal;
+    font-weight: 500;
+    line-height: 51px;
+    color: #FFFFFF;
+    width: 50%;
+    margin: auto;
+}
+
+.joinGrid {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-rows: 200px;
+    grid-template-columns: 400px 400px;
+}
+
+.join1,
+.join2,
+.join3,
+.join4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+}
+
+.whyChildPara {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+    width: 80%;
+
+}
+
+/* .ourMissionParent,
+.ourVisionParent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90vh;
+} */
+
+.referEarn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('../../public/referEarnBanner.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.ourAchieve {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+    background-image: url('../../public/landingAchieve.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.ourMissionHead,
+.ourVisionHead {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    color: #FFFFFF;
+    width: 50%;
+    overflow-y: hidden;
+}
+
+ul {
+    padding-left: 0;
+}
+
+.ourMissionLists {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+    padding: 15px 0;
+
+}
+
+.ourVisionTarget {
+    width: 350px;
+}
+
+.ourVisionPara {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+    padding: 20px 0;
+
+}
+
+.ourAchieveHead {
+    padding: 60px 0;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 59px;
+    color: #000000;
+}
+
+.ourAchieveChildHead {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 64px;
+    color: #000000;
+}
+
+.ourAchievePara {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    color: #000000;
+}
+
+.upperPara {
+    padding: 20px 0;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 42px;
+    color: #000000;
+
+}
+
+.achieveBtn,
+.courseBtn {
+    background: #4042E2;
+    border-radius: 6px;
+    border: none;
+    width: 233px;
+    height: 50px;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 29px;
+    color: #FFFFFF;
+    margin-top: 80px;
+}
+
+.achieveBtn::after {
+    content: "\2192";
+    margin-left: 0.5rem;
+    font-size: 1.2rem;
+
+}
+
+.learnerAcrossHead {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 59px;
+    color: #000000;
+    padding: 80px 0;
+}
+
+.courses {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card {
+    margin: 0 15px;
+    box-shadow: 1px 2px 5px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    width: 18rem;
+}
+
+.num {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FABF35;
+}
+
+.sponsors {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    background: #F4FCFF;
+}
+
+.sponsorsImg {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sponsorsImage {
+    width: 150px;
+}

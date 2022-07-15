@@ -1,0 +1,134 @@
+.campusLanding {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background-image: url('../../public/landingBanner.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.logBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #F4FCFF;
+    flex-direction: column;
+    padding-top: 25px;
+
+}
+
+.log {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logBoxPara {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #000000;
+}
+
+.perk {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    padding: 116px 0;
+    background-image: url('../../public/perksLanding.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.perkHead {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 67px;
+    color: #FFFFFF;
+}
+
+.perkPara {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    color: #FFFFFF;
+    padding-bottom: 50px;
+}
+
+.vit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+
+}
+
+.vitHead {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    background: linear-gradient(89.6deg, #5077FF 0.31%, #9981FB 42.01%, #F797FF 99.64%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    padding: 50px 0;
+}
+
+.cardsRow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 39px;
+}
+
+.get {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    padding: 84px 0;
+}
+
+.getHead {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    color: #000000;
+    padding-bottom: 59px;
+}
+
+.faq {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    padding: 70px 0;
+    background-image: url('../../public/faq.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.accordion-item {
+    background: linear-gradient(180deg, #4351FF 0%, rgba(67, 81, 255, 0) 96.61%) !important;
+    border: 0.5px solid #E1E1E1;
+    filter: drop-shadow(2px 1px 5px rgba(0, 0, 0, 0.1));
+    border-radius: 6px;
+}
+
+.faqHead {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 59px;
+    color: #FFFFFF;
+    margin-bottom: 34px;
+}

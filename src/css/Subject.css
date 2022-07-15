@@ -1,0 +1,118 @@
+.subject {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    background-image: url('../../public/subjectLanding.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.description {
+    padding-top: 50px;
+}
+
+.syllHead {
+    margin: 30px 0;
+}
+
+.subjectContent {
+    width: 80%;
+}
+
+.subjectHead {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 59px;
+    color: #FFFFFF;
+    padding-bottom: 20px;
+}
+
+.subjectPara {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 28px;
+    color: #FFFFFF;
+
+}
+
+.star {
+    padding: 20px 0;
+}
+
+.subjectSubPara {
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.subjectSpan {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+
+
+}
+
+.syllabus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    background: #F4FCFF;
+}
+
+.description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #F4FCFF;
+
+}
+
+.syllabusContent {
+    display: flex;
+    justify-content: space-between;
+}
+
+.subjectCard {
+    width: 15rem;
+}
+
+.accordion {
+    width: 75%;
+}
+
+
+.descriptionText {
+    width: 75%;
+}
+
+.descriptionHead {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+}
+
+.descriptionPara {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+}
+
+.showMoreBtn {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 23px;
+    color: #4042E2;
+    border: none;
+    background: transparent;
+}

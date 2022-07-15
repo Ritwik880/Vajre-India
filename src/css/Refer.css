@@ -1,0 +1,89 @@
+.referCard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    background: #E5E5E5;
+    padding: 50px 0;
+}
+
+.referEarnCards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.referCardHead {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    background: linear-gradient(89.6deg, #5077FF 0.31%, #9981FB 42.01%, #F797FF 99.64%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.benefit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    background-image: url('../../public/benefitLanding.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 52px 0;
+}
+
+.benefitHead {
+    font-weight: 700;
+    font-size: 50px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.benBox {
+    width: 100%;
+    height: 180px;
+    background: linear-gradient(89.6deg, #2CBDFB 0.31%, #9175FF 47.7%, #4764FF 99.64%);
+    box-shadow: 2px 1px 15px -1px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.benBox2 {
+    width: 100%;
+    height: 180px;
+    background: linear-gradient(89.6deg, #2CBDFB 0.31%, #9175FF 47.7%, #4764FF 99.64%);
+    box-shadow: 2px 1px 15px -1px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 65px;
+
+}
+
+.getCampus {
+    width: 170px;
+}
+
+.getCampusPara {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.faqLand {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('../../public/faqLand.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}

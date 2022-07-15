@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,700;1,400&family=Roboto:wght@700&family=Rubik&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Rubik', sans-serif;
+  overflow-x: hidden;
+}
+
+
+.accordion {
+  width: 100% !important;
+}
+
+@media (min-width: 1600px) {
+
+
+  .container {
+    width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+
+}
+
+.preLoader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  position: static !important;
+}
+
+.loader {
+  position: static !important;
+}

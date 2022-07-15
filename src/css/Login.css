@@ -1,0 +1,47 @@
+.twoText {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.forgotPassword {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-decoration-line: underline;
+    color: #0009D9;
+    padding-top: 20px
+}
+
+.createAccount {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-decoration-line: underline;
+    color: #090909;
+    padding-top: 20px
+}
+
+.option {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.loginBtn {
+    background: transparent;
+    border-radius: 6px;
+    border: 1px solid #000;
+    width: 100%;
+    height: 50px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #000;
+}
+
+.loginSpan {
+    padding-left: 16px;
+    font-size: 1.2rem;
+}

@@ -1,0 +1,136 @@
+.graduateSection {
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url('../../public/graduateBanner.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.graduateHead {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+}
+
+.graduatePara {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    color: #FFFFFF;
+    padding-top: 20px;
+
+}
+
+.graduateRight {
+    width: 400px;
+}
+
+.childGraduate {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.spanText {
+    color: blue;
+}
+
+.program {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    background: #F4FCFF;
+    padding: 6px 0;
+}
+
+.programHead {
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    background: linear-gradient(89.6deg, #2CBDFB 0.31%, #9175FF 47.7%, #4764FF 99.64%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    width: 50%;
+    margin: auto;
+    padding: 80px 0;
+}
+
+.programPara {
+    font-weight: 700;
+    font-size: 19px;
+    text-align: center;
+    color: #000000;
+    width: 50%;
+    margin: auto;
+    padding-top: 10px;
+
+}
+
+.programSubHead {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+
+}
+
+.spanProgram {
+    color: #4042E2;
+
+}
+
+.parentCheck {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 238px;
+}
+
+.checkBox {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.check1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.check {
+    width: 57px;
+}
+
+.checkPara {
+    width: 200px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    color: #000000;
+}
+
+.freeCourse {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    padding: 50px 0;
+}
+
+.freeHead {
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    color: #000000;
+}

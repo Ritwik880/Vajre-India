@@ -1,0 +1,101 @@
+.allCheckLanding {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    background: #F4FCFF;
+}
+
+.allCheck {
+    display: flex;
+    align-items: flex-start;
+    height: 238px;
+    gap: 13rem;
+}
+
+.allCheckHead {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 59px;
+    padding-bottom: 15px;
+}
+
+.allCheckPara {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    color: #000000;
+    width: 50%;
+}
+
+.allcheckBox {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.longCard {
+    background: transparent !important;
+}
+
+.csr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 240px;
+    background: #F4FCFF;
+}
+
+.card1 {
+    display: flex;
+    align-items: center;
+}
+
+.middCard {
+    display: flex;
+    flex-direction: column;
+    padding: 0 56px;
+}
+
+.courseCardTitle {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    text-decoration-line: underline;
+    color: #090909;
+    width: 85%;
+}
+
+.rateStar {
+    color: #FABF35;
+}
+
+.teacherName {
+    margin: 25px 0;
+}
+
+.courseCost {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #090909;
+    margin-bottom: 85px;
+}
+
+.courseEnroll {
+    background: #4042E2;
+    border-radius: 6px;
+    border: none;
+    padding: 8px 19px;
+    color: #fff;
+    width: 136px;
+}
+
+.last {
+    text-align: right;
+}

@@ -1,0 +1,11 @@
+.contact{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
+    background: rgba(0, 33, 65, 0.8);
+    margin-top: auto;
+}
+.contactText{
+    margin: auto;
+}
