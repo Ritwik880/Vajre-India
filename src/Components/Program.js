@@ -6,9 +6,9 @@ const Program = (props) => {
             <section className="program">
                 <div className="row container">
                     <h2 className="programHead text-center" data-aos="zoom-in-right">
-                       {
-                           props.head
-                       }
+                        {
+                            props.head
+                        }
                     </h2>
                     <div className="programText" data-aos="zoom-in-left">
                         <p className='programSubHead text-center'><span className='spanProgram'>
@@ -57,13 +57,8 @@ const Program = (props) => {
                             </div>
                         </div>
                     </div>
-                    <div className="courses my-4">
-                        <Course title="The complete 2022 Web Development Boot Camp" text="Dr Angela Yu" num="4.0
-" paisa="₹450" />
-                        <Course title="The complete 2022 Web Development Boot Camp" text="Dr Angela Yu" num="4.0
-" paisa="₹450" />
-                        <Course title="The complete 2022 Web Development Boot Camp" text="Dr Angela Yu" num="4.0
-" paisa="₹450" />
+                    <div className="courses">
+                        <Course />
 
                     </div>
                     <div className="d-flex justify-content-center align-items-center pb-5">

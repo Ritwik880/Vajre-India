@@ -121,6 +121,12 @@ h6 {
     align-items: center;
 }
 
+.courses {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .cardBox {
     margin: 0 30px;
     height: 336px;
@@ -181,13 +187,6 @@ h6 {
     align-items: center;
 }
 
-.ourMissionText {
-    width: 60%;
-}
-
-.ourMissionTarget {
-    width: 30%;
-}
 
 .whyShouldJoin,
 .ourMissionParent,
@@ -264,11 +263,16 @@ h6 {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 800px;
+    height: 900px;
     background-image: url('../../public/landingAchieve.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+.buyThis {
+    text-decoration: underline;
+    color: #4042E2;
 }
 
 .ourMissionHead,
@@ -375,18 +379,6 @@ ul {
     padding: 80px 0;
 }
 
-.courses {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.card {
-    margin: 0 15px;
-    box-shadow: 1px 2px 5px 1px rgba(0, 0, 0, 0.1);
-    border-radius: 6px;
-    width: 18rem;
-}
 
 .num {
     font-style: normal;
@@ -412,4 +404,10 @@ ul {
 
 .sponsorsImage {
     width: 150px;
+}
+
+.courseCards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

@@ -11,12 +11,7 @@ const FreeCourse = (props) => {
                         }
                     </h2>
                     <div className="courses my-4">
-                        <Course title="The complete 2022 Web Development Boot Camp" text="Dr Angela Yu" num="4.0
-" paisa="₹450" />
-                        <Course title="The complete 2022 Web Development Boot Camp" text="Dr Angela Yu" num="4.0
-" paisa="₹450" />
-                        <Course title="The complete 2022 Web Development Boot Camp" text="Dr Angela Yu" num="4.0
-" paisa="₹450" />
+                        <Course />
 
 
                     </div>

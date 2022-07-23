@@ -3,14 +3,7 @@ import Card from './Card'
 import Course from './Course'
 import { Link } from 'react-router-dom';
 const Landing = () => {
-    const [counter, setCounter] = useState(0);
-    // useEffect(() => {
-    //     const id = setInterval(() => setCounter((oldCount) => oldCount + 10000), 300);
 
-    //     return () => {
-    //         clearInterval(id);
-    //     };
-    // }, []);
     return (
         <>
             {/* <section className='landingSection d-flex'> */}
@@ -40,7 +33,7 @@ const Landing = () => {
                     <div className="box">
                         <div className="box1" data-aos="flip-up">
                             <h6 className='text-center'>
-                                {counter}+</h6>
+                                40,800+</h6>
                             <p className='counterBoxPara'>Sessions</p>
                         </div>
                         <div className="box2" data-aos="flip-up">
@@ -165,12 +158,7 @@ const Landing = () => {
                 <div className="row container">
                     <h1 className='text-center learnerAcrossHead' data-aos="fade-left">Join Our Training Programme</h1>
                     <div className="courses">
-                        <Course title="The complete 2022 Web Development Boot Camp" text="Dr Angela Yu" num="4.0
-" paisa="₹450" />
-                        <Course title="The complete 2022 Web Development Boot Camp" text="Dr Angela Yu" num="4.0
-" paisa="₹450" />
-                        <Course title="The complete 2022 Web Development Boot Camp" text="Dr Angela Yu" num="4.0
-" paisa="₹450" />
+                        <Course />
 
                     </div>
                     <div className="d-flex justify-content-center align-items-center">
